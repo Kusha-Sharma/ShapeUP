@@ -1,0 +1,58 @@
+<html>
+<head><title>Exercises</title></head>
+<body>
+<img src="logo.jpg" style="width:240px; float:right; margin-top:-40px;z-index">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="emain.css" rel="stylesheet">
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Exercises</a>
+  <a href="#">Diets</a>
+  <a href="#">Coaches</a>
+  <a href="#">BMI</a>
+  <a href="#">Playlist</a>
+  <a href="https://www.myenso.de/">Shop Goods</a>
+  <a href="https://www.domaxsport.com/">Shop Clothes</a>
+  <a href="#">About us</a>
+</div>
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+  <h1>Exercises</h1>
+  
+<div class="box" style="margin-left:8%"></div>
+<h2>Stretch</h2>
+<img src="sm.gif" style="position:absolute;height:150px;margin-left:15%">
+
+<div class="box" style="margin-left:38%"></div>
+<h3>Build Muscle</h3>
+
+<div class="box" style="margin-left:68%"></div>
+ <h4>Lose Weight</h>
+ 
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>4
+
+<footer>@Shape Up 2022</footer>
+<div class="footerback"></div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}var slideIndex = 1;
+showSlides(slideIndex);
+</script>
+
+</body>
+</html>
